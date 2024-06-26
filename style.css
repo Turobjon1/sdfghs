@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+.wrapper{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.wrapper-selects{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+   width: 80px;
+}
